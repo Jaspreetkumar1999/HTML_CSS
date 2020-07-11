@@ -1,0 +1,197 @@
+/*
+Theme Name: Cars24
+Theme URI: https://wordpress.org/themes/
+Author: Cars24 Team
+Author URI: https://wordpress.org/
+Description: Selling a car is an extensive and uncertain process. One is never sure of their car’s real market value. Listing online leads to more time consumption, multiple calls, random meetings, price haggling etc. CARS24 makes selling a car an easy, fair and quick experience.We offer an efficient and reliable way to car owners to sell their cars at the best price.
+Version: 5.2
+
+*/ 
+.slick-slide img{
+display: inline-block !important;
+}
+/*table css */
+.stories-wrap table {	
+    margin: 0 0 1.5em;
+    width: 100%;
+}
+.stories-wrap table td, .stories-wrap table th {
+    border: 1px solid #ccc;
+	padding: 9px;
+    text-align: left;
+     
+}
+
+
+img.avatar.avatar-50.wp-user-avatar.wp-user-avatar-50.photo.avatar-default {
+	border-radius: 50%;
+}
+img.avatar.avatar-50.wp-user-avatar.wp-user-avatar-50.alignnone.photo {
+    border-radius: 50% !important;
+    max-width: 50px;
+}
+
+img.alignnone, img.aligncenter {
+	width: 100% !important;
+	height: auto !important;
+}
+/*ul.heateor_sss_sharing_ul li.heateorSssSharingRound {
+	position: relative;
+	margin-right: 5px !important;
+	padding-right: 5px !important;
+}
+ul.heateor_sss_sharing_ul li.heateorSssSharingRound:after {
+	content: '';
+	position: absolute;
+	height: 17px;
+	width: 1px;
+	background: #ccc;
+	top: 9px;
+	right: 0;
+}
+ul.heateor_sss_sharing_ul li.heateorSssSharingRound:last-child {
+	margin-left: 0 !important;
+	padding-left: 0 !important;
+}
+ul.heateor_sss_sharing_ul li.heateorSssSharingRound:last-child:after {
+	display: none;
+}
+ul.heateor_sss_sharing_ul li.heateorSssSharingRound .heateorSssSharing:hover {
+	color: #ed6c0d !important;
+}*/
+/*===========*/
+.outer {
+	display: block;
+	position: relative
+}
+.outer input, .outer select {
+	border: 1px solid #dde5eb;
+	background: #fff;
+	padding: 10px 16px;
+	width: 100%;
+	border-radius: 5px;
+	font-size: 16px;
+	color: #465166;
+	margin-bottom: 6px
+}
+.outer input:focus, .outer select:focus {
+	outline: 0
+}
+.outer option {
+	font-size: 16px;
+	color: #465166
+}
+select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+ background: url(images/down-arrow.svg) no-repeat 96% 20px!important
+}
+.outer button {
+	border-radius: 5px;
+	background-image: linear-gradient(229deg, #f69b00, #ed6a00);
+	width: 100%;
+	height: 48px;
+	border: none;
+	color:#fff;
+}
+.search-form {
+	display: inline-block;
+	position: relative;
+}
+.search-submit {
+	border: none;
+	background: transparent;
+	position: absolute;
+	right: 10px;
+	top: 0;
+}
+.search-submit:focus {
+	outline: none;
+}
+.subs-main input[type="email"] {
+    border-radius: 4px;
+    border: 1px solid #DBE2E8;
+    outline: none;
+    background: #fff;
+    height: 60px;
+    padding: 20px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+
+
+.prev .page-numbers:first-child {
+	margin-left:-1px;
+}
+.page-numbers{
+	position: relative;
+	padding: .5rem .75rem;
+	margin-left: -1px;
+    line-height: 34px;
+}
+.page-numbers:first-child {
+	margin-left:10px;
+	}
+.page-numbers:last-child {
+	margin-right: 10px;
+	}
+.page-numbers.current {
+    border-color: transparent;
+    background-color: transparent;
+    font-weight: bold;
+    color: #000;
+    border: 1px solid #C5CCD1;
+    border-radius: 4px;
+}
+input:-internal-autofill-selected{ background: #fff;}
+.page-numbers:before {
+    content: '';
+    height: 20px;
+    width: 1px;
+    background-color: #C5CCD1;
+    position: absolute;
+    left: 0px;
+    top: 6px;
+}
+.current:before {
+    content: '';
+    height: 20px;
+    width: 0px;
+    background-color: #C5CCD1;
+    position: absolute;
+    left: 0px;
+    top: 6px;
+}
+@media only screen and (max-width: 768px) {
+.page-item.next .page-link{padding-left: 15px;}
+  .page-numbers:last-child, .page-numbers:first-child{margin:0; padding: 7px;}
+  .page-numbers.current{ margin-right:5px !important}
+}
+
+.app-store{
+    width: 144px;
+    height: 43px;
+}
+
+/* recent post*/
+.ad-wrap.recent-post{padding-top: 25px;}
+.ad-wrap.recent-post ul li{ 
+   line-height: 28px;
+    border-bottom: 1px solid #00000012;
+    padding: 4px 0;
+	    transition: ease 0.5s ease-out;
+	}
+
+.ad-wrap.recent-post ul{
+   padding-left: 20px;
+}
+
+.stories-wrap p a, .stories-wrap h2 a, .stories-wrap p a, .stories-wrap h2 a, .wp-block-table a, .stories-wrap table a, .stories-wrap .col-md-8 ul li a{
+    color: #0071BC;
+}
+
+.stories-wrap ul li ol {
+    padding-left: 30px;
+}

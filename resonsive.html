@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive</title>
+</head>
+<style>
+    .hello{
+
+          font-size: 32px;
+          display: block;
+          display:none ;   
+          }
+@media (max-width:400px){
+#h1{
+    display: block;
+    background-color: cadetblue;
+}
+}
+@media (min-width: 400px) and (max-width: 800px){
+#h2{
+    display: block;
+    background-color: darkgoldenrod;
+}
+}
+@media (min-width: 801px) and (max-width:1024px){
+#h3{
+    display: block;
+    background-color: darkolivegreen;
+}
+}+
+</style>
+<body>
+    <div class="hello" id="h1"> mobile</div>
+    <div class="hello" id="h2"> tablet</div>
+    <div class="hello" id="h3"> computer</div>
+</body>
+</html>
